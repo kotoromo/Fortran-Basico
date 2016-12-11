@@ -1,0 +1,15 @@
+Para apollarnos, declararemos un arreglo integer, dimension(0:4, 0:4) :: array
+
+En Fortran se maneja una nomenclatura especial para llamarle a cada una de las caracteristicas de los arreglos:
+
+	El termino "Rank" (En Español "Rango") se refiere a la dimensión del arreglo. Así entonces, se dice que un vector tiene Rank 1
+	asi como una matriz es de Rank 2
+
+	El termino "Extent" (En Español "Extensión") se refiere al número de elementos en una dimensión. Por ejemplo, el arreglo "array" tiene 
+	un Extent de 5 y un Rank de 2
+
+	El termino "Shape" (En Español "Forma") se refiere a un arreglo unidimensional (Rank 1) que contiene un número de elementos
+	(El Extent). Para array, el Shape (Forma) es (0:4, 0:4)
+
+	El termino "Size" (En Español "Size") se refiere a el número de elementos que contiene un arreglo. En este caso, "array" tiene
+	un tamaño de 25 elementos.
